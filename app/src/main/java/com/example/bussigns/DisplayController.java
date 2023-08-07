@@ -104,7 +104,7 @@ public class DisplayController {
 
     private void fetchBusData() {
         Log.d("fetchBusData", "Fetching bus data...");
-        String key = "524f55c7-e8e3-445d-9919-44ae5dcd843b";
+        String key = "API_KEY_HERE";
         String monitoringRef = "200660";
 
         Call<ResponseBody> call = busService.getBusData(key, monitoringRef);
