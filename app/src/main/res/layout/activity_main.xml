@@ -1,0 +1,212 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000000">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Route"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Destination"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minutes Away"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:gravity="left" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1976D2">
+
+        <TextView
+            android:id="@+id/busA"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="SIM10"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/destinationA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Midtown"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/minutesAwayA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05 minutes"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1976D2">
+
+        <TextView
+            android:id="@+id/busB"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="SIM1C"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/destinationB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Midtown"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/minutesAwayB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 minutes"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1976D2">
+
+        <TextView
+            android:id="@+id/busC"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="S79"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/destinationC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bay Ridge"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/minutesAwayC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 minutes"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1976D2">
+
+        <TextView
+            android:id="@+id/busD"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="S53"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/destinationD"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bay Ridge"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/minutesAwayD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 minutes"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/busStop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hylan BL &amp; Mallory Av"
+            android:textSize="28sp"
+            android:textColor="#000000"
+            android:paddingLeft="24dp"
+            android:paddingTop="5dp"
+            android:gravity="left|center_vertical" />
+
+    </LinearLayout>
+
+</LinearLayout>
